@@ -22,20 +22,23 @@
     <!-- input form  -->
     <div class="row">
       <div class="col-md-6 offset-md-3 box-decore">
-        <h1 class="text-center">Boilerplate Website</h1>
+        <h1 class="text-center">Digital Passport</h1>
         <form>
           <div class="form-group">
-            <label for="input-1">Input 1</label>
-            <input type="text" class="form-control" id="input-1" aria-describedby="input">
-            <small id="input1-Help" class="form-text text-muted">You can put your thoughts here.</small>
+            <label for="city-name">City Name</label>
+            <input type="text" class="form-control" id="city-name" aria-describedby="input" value="portland">
           </div>
           <div class="form-group">
-            <label for="input-2">Input 2</label>
-            <input type="text" class="form-control" id="input-2">
+            <label for="time-of-year">Time of Year Visited</label>
+            <input type="text" class="form-control" id="time-of-year" value="summer">
           </div>
-          <div class="form-group form-check">
-            <input type="checkbox" class="form-check-input" id="checkbox-1">
-            <label class="form-check-label" for="checkbox-1">Check me out</label>
+          <div class="form-group">
+            <label for="landmark">Landmarks Visited</label>
+            <input type="text" class="form-control" id="landmark" aria-describedby="input" value="water">
+          </div>
+          <div class="form-group">
+            <label for="notes">Additional Notes</label>
+            <input type="text" class="form-control" id="notes" value="notes">
           </div>
           <button id="submitBtn" type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
         </form>
@@ -45,7 +48,7 @@
     <!-- output box  -->
     <div class="row">
       <div class="col-md-6 offset-md-3">
-        <div class="output">Output here</div>
+        <ol id="output">Output here</ol>
       </div>
     </div>
   </div>

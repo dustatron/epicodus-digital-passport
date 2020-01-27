@@ -7,3 +7,7 @@
 .output {
   margin-top: 55px;
 }
+
+.hide-me {
+  display: none;
+}

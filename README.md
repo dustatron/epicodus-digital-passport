@@ -1,13 +1,13 @@
-# _Boilerplate Website_
+# _Places You've Been_
 
-#### _This site comes with the all basic parts to get you started making a single page website fast. | Jan 24. 2020_
+#### _This site helps a user keep track of all the places they have been. | Jan 27. 2020_
 
-#### By _**Dusty McCord**_
-[link to demo site](https://dustatron.github.io/boilerplate-simple-website/)
+#### By _**Dusty McCord & Stephanie Podolak**_
+[link to demo site coming soon](#)
 
 ## Description
 
-_This boilerplate site has one index.html file that is already linked to the included bootstrap.css(4.4), styles.css, jQuery.js(3.4.1), and scripts.js._
+_This website will create a website where a user can keep track of all the places they have been. Each destination should be an object with multiple properties, like location, landmarks, time of year, notes, etc. Display those properties when a user clicks on a place's name._
 
 
 There is a pre-built two input form with a submit button. There is also a simple jQuery function that will console.log when the submit button is clicked.
@@ -36,7 +36,7 @@ cd desktop
  3. in terminal type '_git clone {link to repository}_ '
 
 ```sh
-git clone https://github.com/dustatron/boilerplate-simple-website.git
+git clone link-here
 ```
 
 4. navigate to the new folder that was created on your desk
@@ -51,8 +51,10 @@ git clone https://github.com/dustatron/boilerplate-simple-website.git
 
 Behavoir | Input | Output
 :---------:|:------:|:------:
-The program takes in input and console.log a 'click' | 'any word' | 'click'
-The program takes in any words and console logs the output | 'learning to code' | 'learning to code'
+The program takes in a location and other properties and stores them in an object | 'portland' | nothing yet.
+The program takes locations and prints them to the page | 'object' | 'shows contents'
+The program shows details when a user clicks on a locations name | click | shows location details. 
+
 
 ## Support 
 
